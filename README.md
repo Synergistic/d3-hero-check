@@ -1,20 +1,30 @@
-d3-quests
+d3-hero-check
 =========
 
-Python script to check what quests in all Acts of Normal mode your level 60s have notcompleted.
+Python script to check the skills and runes of any hero. Plan to expand it beyond just skills.
+Credit to jpwalsh1 for the base to this script with his d3-quests script. (https://github.com/jpwalsh1/d3-quests)
 
 # Usage #
     ./d3.py
 
 # Sample Output #
 
-```bash
-[d3-quests]$ ./d3.py
-Enter your Bnet ID, ex. Name#1234: Nicarras#1104
-BeardedNic - monk - Level 60 - act1
-Sword of the Stranger
-```
+'''
+Enter your Bnet ID, ex. Name#1234: Cinderous#1185
+Enter your region. us/eu/kr: us
 
-# To Do #
-* Update script once the new RoS API is released.
-* Sort out Unicode name issues
+Helios level 60 wizard
+
+Enter the name of desired character: Helios
+
+Helios - 60 wizard
+************************
+Arcane Orb - Celestial Orb
+Ray of Frost - Cold Blood
+Diamond Skin - Mirror Skin
+Teleport - Wormhole
+Storm Armor - Shocking Aspect
+Familiar - Sparkflint
+Astral Presence
+Glass Cannon
+Power Hungry
